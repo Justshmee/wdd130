@@ -1,0 +1,54 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #5ca0d7;
+}
+header {
+    color: white;
+    display: inline-block;
+    font-size: 2em;
+}
+#header_content {
+    text-align: center;
+}
+header:hover {
+    color: black;
+}
+#quote1 {
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+#aof {
+    text-align: center;
+}
+#aof1 {
+    color: black;
+    text-align: center;
+}
+#aof2 {
+    color: black;
+    text-align: center;
+}
+#aof3 {
+    color: black;
+    text-align: center;
+}
+#aof4 {
+    color: black;
+    text-align: center;
+}
+img {
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+}
+#quote2 {
+    color: white;
+    text-align: center;
+}
+footer {
+    color: black;
+    text-align: center;
+}
