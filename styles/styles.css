@@ -1,6 +1,4 @@
-* {
-    border: 2px solid red;
-}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu&display=swap');
 body {
     padding: 0;
     margin: 0;
@@ -15,6 +13,8 @@ nav {
     display: flex;
     justify-content: center;
     background-color: rgb(61, 99, 61);
+    font-family: "Playfair Display", Helvetica, sans-serif;
+    border-bottom: 5px solid black;
 }
 .nav_link {
     padding: 15px;
@@ -23,9 +23,11 @@ nav {
     text-align: center;
 }
 img {
-    width: 900px;
+    width: 60%;
     display: block;
     margin: 0 auto;
+    border: 5px solid black;
+    border-radius: 50%;
 }
 a {
     color: white;
@@ -35,21 +37,34 @@ a:hover {
     background-color: white;
 }
 #main_title {
-    color: white;
+    color: orange;
     text-align: center;
+    font-family: Ubuntu, Helvetica, sans-serif;
 }
 #sub_title {
-    color: white;
+    color: orange;
     font-size: 1.7em;
     text-align: center;
+    font-family: Ubuntu, Helvetica, sans-serif;
 }
 .personal_paragraph {
     color: white;
-    font-size: 20px;
-    text-align: center;
+    font-size: 1.2em;
+    font-family: Ubuntu, Helvetica, sans-serif;
+    width: 60%;
+    margin: 50px auto;
+    line-height: 1.5em;
+    padding: 20px;
+    background-color: rgb(61, 99, 61);
+    border: 5px solid black;
+    box-sizing: border-box;
+    border-radius: 30px 70px;
+
 }
 footer {
     color: white;
     padding: 20px;
     background-color: rgb(61, 99, 61);
+    font-family: "Playfair Display", Helvetica, sans-serif;
+    border-top: 5px solid black;
 }
