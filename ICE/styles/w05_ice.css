@@ -1,0 +1,32 @@
+main {
+    text-align: center;
+}
+#top {
+    margin: -8px;
+}
+#top img {
+    width: 100%;
+}
+#bottom {
+    background-color: gray;
+    margin: -8PX;
+}
+#bottom img {
+    border: 10px solid rgb(94, 94, 94);
+    border-radius: 50%;
+    width: 200px;
+}
+.desk {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.logo {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.man {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
