@@ -242,3 +242,19 @@ main section img {
     margin-top: 25px;
   }
 }
+
+/* FAQs page */
+#title {
+  text-align: center;
+}
+.faqs-grid {
+  color: #cfd2b2;
+}
+#q1, #q2, #q3, #q4, #q5, #q6, #a1, #a2, #a3, #a4, #a5, #a6 {
+  background-color: #2b2229;
+  border: 2px solid #cfd2b2;
+  padding: 20px;
+}
+#a1, #a2, #a3, #a4, #a5 {
+  margin-bottom: 100px;
+}
