@@ -62,7 +62,9 @@ footer a:hover {
 #video-game-image {
   width: 100%;
   grid-column: 2/6;
+  grid-row: 1/2;
   margin-top: 25px;
+  cursor: pointer;
   text-align: center;
 }
 #videogames {
@@ -77,6 +79,7 @@ footer a:hover {
   grid-column: 2/6;
   grid-row: 2/3;
   margin-top: 25px;
+  cursor: pointer;
   text-align: center;
 }
 #boardgames {
