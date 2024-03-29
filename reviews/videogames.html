@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Reviews</title>
-    <link rel="stylesheet" href="styles/styles.css" />
+    <title>Video Games</title>
+    <link rel="stylesheet" href="styles/video-game-styles.css" />
   </head>
   <body>
     <div id="content">
@@ -19,80 +19,129 @@
           <a href="#">Contact Us</a>
         </nav>
       </header>
+      <h1 id="title">Video Games</h1>
       <main class="videogame-grid">
         <h1 id="platformer">Platformer</h1>
-        <img src="images/celeste-logo.jpg" alt="Celeste" width="500" />
-        <!--Temporary image resizing-->
-        <h4 id="celeste-rating">
-          5/5 Single handedly one of the best platformers of our time, with
-          amazig story, character, levels, and music.
-        </h4>
-        <img src="images/shovel-knight.webp" alt="Shovel Knight" width="300" />
-        <!--Temporary image resizing-->
-        <h4 id="shovel-knight-rating">
-          4/5 Very fun movement, boss fights, and a nice story, not only in the
-          main story but the dlc's as well. Though creativity for boss fights
-          are lacking.
-        </h4>
-        <img
-          src="images/A_Hat_in_Time_Logo.webp"
-          alt="A Hat in Time"
-          width="400"
-        />
-        <!--Temporary image resizing-->
-        <h4 id="a-hat-in-time-rating">
-          5/5 A very expressive and fun 3D platformer. While I feel the base
-          games customization is not creative, the dlcs give you plenty more to
-          work towards and have fun with.
-        </h4>
+        <div class="celeste">
+          <img
+            src="images/celeste.jpg"
+            alt="Celeste"
+            class="celeste-image"
+          />
+          <div class="celeste-overlay">
+            <h4 class="celeste-rating">
+              5/5 Single handedly one of the best platformers of our time, with
+              amazig story, character, levels, and music.
+            </h4>
+          </div>
+        </div>
+        <div class="shovel-knight">
+          <img
+            src="images/shovel-knight.webp"
+            alt="Shovel Knight"
+            class="shovel-knight-image"
+          />
+          <div class="shovel-knight-overlay">
+            <h4 class="shovel-knight-rating">
+              4/5 Very fun movement, boss fights, and a nice story, not only in
+              the main story but the dlc's as well. Though creativity for boss
+              fights are lacking.
+            </h4>
+          </div>
+        </div>
+        <div class="a-hat-in-time">
+          <img
+            src="images/A_Hat_in_Time_Logo.webp"
+            alt="A Hat in Time"
+            class="a-hat-in-time-image"
+          />
+          <div class="a-hat-in-time-overlay">
+            <h4 class="a-hat-in-time-rating">
+              5/5 A very expressive and fun 3D platformer. While I feel the base
+              games customization is not creative, the dlcs give you plenty more
+              to work towards and have fun with.
+            </h4>
+          </div>
+        </div>
         <h1 id="JRPG">JRPG</h1>
-        <img src="images/P5R_Logo.webp" alt="P5R" width="500" />
-        <!--Temporary image resizing-->
-        <h4 id="p5r-rating">
-          4/5 A game with creative dungeons and amazing music. Where the
-          importance of your bonds with other people help you throughout the
-          game. While the original ending lacks in many places, the Royal ending
-          makes the game end in a more satisfying way.
-        </h4>
-        <img src="images/Final_Fantasy_XVI_logo.webp" alt="FF15" width="500" />
-        <!--Temporary image resizing-->
-        <h4 id="ff15-rating">
-          4/5 Great music and beautiful landscape with a cast of powerful
-          characters and strong bonds formed between them. The combat is
-          probably the best in the whole series. Despite a semi confusing story,
-          the game still shines.
-        </h4>
-        <img src="images/DQXI_Logo.webp" alt="DQ11" width="500" />
-        <!--Temporary image resizing-->
-        <h4 id="dq11-rating">
-          4/5 With a cast of expressive and funny characters and a beautiful
-          wordl for you to travel, this game is also one that shines in its long
-          line of games. Despite the music being amazing, the length of the
-          game, with a small music pool compared to other jrpg's, you can get
-          tired of it easily.
-        </h4>
-        <h1 id="Shooter">Shooter</h1>
-        <img src="images/fortnite.png" alt="Fortnite" width="500" />
-        <!--Temporary image resizing-->
-        <h4 id="fortnite-rating">
-          4/5 What other game can a Ninja Turtle and Eminem win a fight against
-          Kratos, and Solid Snake.
-        </h4>
-        <img src="images/destiny-2.png" alt="Destiny 2" width="500" />
-        <!--Temporary image resizing-->
-        <h4 id="desitny2-rating">
-          2/5 While a game I have really enjoyed playing in the past it's hard
-          to get back into it now, with old content being deleted to make room
-          for new content, instead of making a whole new game, if you miss
-          something in the past you'll be lost on what to do.
-        </h4>
-        <img src="images/halo-reach.png" alt="Halo Reach" width="500" />
-        <!--Temporary image resizing-->
-        <h4 id="halo-reach-rating">
-          3/5 Never really ever been a Halo guy but I got the opportunity to
-          play reach and since I heard people really like this one I was excited
-          to play. In the end I was sad but also don't regret playing it.
-        </h4>
+        <div class="p5r">
+          <img src="images/P5R_Logo.webp" alt="P5R" class="p5r-image" />
+          <div class="p5r-overlay">
+            <h4 class="p5r-rating">
+              4/5 A game with creative dungeons and amazing music. Where the
+              importance of your bonds with other people help you throughout the
+              game. While the original ending lacks in many places, the Royal
+              ending makes the game end in a more satisfying way.
+            </h4>
+          </div>
+        </div>
+        <div class="ff15">
+          <img
+            src="images/Final_Fantasy_XVI_logo.webp"
+            alt="FF15"
+            class="ff15-image"
+          />
+          <div class="ff15-overlay">
+            <h4 class="ff15-rating">
+              4/5 Great music and beautiful landscape with a cast of powerful
+              characters and strong bonds formed between them. The combat is
+              probably the best in the whole series. Despite a semi confusing
+              story, the game still shines.
+            </h4>
+          </div>
+        </div>
+        <div class="dq11">
+          <img src="images/DQXI_Logo.webp" alt="DQ11" class="dq11-image" />
+          <div class="dq11-overlay">
+            <h4 class="dq11-rating">
+              4/5 With a cast of expressive and funny characters and a beautiful
+              wordl for you to travel, this game is also one that shines in its
+              long line of games. Despite the music being amazing, the length of
+              the game, with a small music pool compared to other jrpg's, you
+              can get tired of it easily.
+            </h4>
+          </div>
+        </div>
+        <h1 id="shooter">Shooter</h1>
+        <div class="fortnite">
+          <img
+            src="images/fortnite.png"
+            alt="Fortnite"
+            class="fortnite-image"
+          />
+          <div class="fortnite-overlay">
+            <h4 class="fortnite-rating">
+              4/5 What other game can a Ninja Turtle and Eminem win a fight
+              against Kratos, and Solid Snake.
+            </h4>
+          </div>
+        </div>
+        <div class="d2">
+          <img src="images/destiny-2.png" alt="Destiny 2" class="d2-image" />
+          <div class="d2-overlay">
+            <h4 class="d2-rating">
+              2/5 While a game I have really enjoyed playing in the past it's
+              hard to get back into it now, with old content being deleted to
+              make room for new content, instead of making a whole new game, if
+              you miss something in the past you'll be lost on what to do.
+            </h4>
+          </div>
+        </div>
+        <div class="halo-reach">
+          <img
+            src="images/halo-reach.png"
+            alt="Halo Reach"
+            class="halo-reach-image"
+          />
+          <div class="halo-reach-overlay">
+            <h4 class="halo-reach-rating">
+              3/5 Never really ever been a Halo guy but I got the opportunity to
+              play reach and since I heard people really like this one I was
+              excited to play. In the end I was sad but also don't regret
+              playing it.
+            </h4>
+          </div>
+        </div>
       </main>
       <footer>
         <p>Reviews 2024 - Dylan Rawlings</p>

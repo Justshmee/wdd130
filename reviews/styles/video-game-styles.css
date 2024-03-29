@@ -1,0 +1,447 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu&display=swap");
+body {
+  background-color: #023047;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  font-family: Ubuntu, helvetica, sans-serif;
+}
+nav a {
+  text-align: center;
+  color: #023047;
+  text-decoration: none;
+  padding: 35px;
+  font-size: 1.5em;
+}
+#title {
+  font-size: 50px;
+  text-align: center;
+  font-family: "Playfair Display", Helvetica, sans-serif;
+  color: #fb8500;
+}
+header {
+  background-color: #06d6a0;
+  display: grid;
+  grid-template-columns: 150px auto;
+}
+nav a:hover {
+  background-color: #023047;
+  color: #8ecae6;
+}
+footer {
+  background-color: #06d6a0;
+  color: #023047;
+  padding: 25px 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.5em;
+  font-family: Ubuntu, helvetica, sans-serif;
+}
+footer a {
+  color: #023047;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+#logo_link {
+  padding-top: 5px;
+  justify-self: center;
+  align-self: center;
+}
+.logo {
+  width: 80px;
+}
+#platformer {
+  color: #fb8500;
+  font-size: 3em;
+}
+.videogame-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.celeste {
+  position: relative;
+  width: 60%;
+  grid-column: 1/2;
+  margin: 50px;
+}
+
+.celeste-image {
+  width: 100%;
+  height: auto;
+}
+
+.celeste-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #06d6a0;
+}
+
+.celeste:hover .celeste-overlay {
+  opacity: 1;
+  border: solid #fb8500 10px;
+}
+
+.celeste-rating {
+  color: #023047;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.shovel-knight {
+  position: relative;
+  width: 60%;
+  grid-column: 2/3;
+  margin: 50px;
+}
+
+.shovel-knight-image {
+  width: 100%;
+  height: auto;
+}
+
+.shovel-knight-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #06d6a0;
+}
+
+.shovel-knight:hover .shovel-knight-overlay {
+  opacity: 1;
+  border: solid #fb8500 10px;
+}
+
+.shovel-knight-rating {
+  color: #023047;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.a-hat-in-time {
+  position: relative;
+  width: 60%;
+  grid-column: 3/4;
+  margin: 50px;
+}
+
+.a-hat-in-time-image {
+  width: 100%;
+  height: auto;
+}
+
+.a-hat-in-time-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #06d6a0;
+}
+
+.a-hat-in-time:hover .a-hat-in-time-overlay {
+  opacity: 1;
+  border: solid #fb8500 10px;
+}
+
+.a-hat-in-time-rating {
+  color: #023047;
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+#JRPG {
+  color: #fb8500;
+  font-size: 3em;
+}
+.p5r {
+  position: relative;
+  width: 60%;
+  grid-column: 1/2;
+  margin: 50px;
+}
+
+.p5r-image {
+  width: 100%;
+  height: auto;
+}
+
+.p5r-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #06d6a0;
+}
+
+.p5r:hover .p5r-overlay {
+  opacity: 1;
+  border: solid #fb8500 10px;
+}
+
+.p5r-rating {
+  color: #023047;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.ff15 {
+  position: relative;
+  width: 60%;
+  grid-column: 2/3;
+  margin: 50px;
+}
+
+.ff15-image {
+  width: 100%;
+  height: auto;
+}
+
+.ff15-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #06d6a0;
+}
+
+.ff15:hover .ff15-overlay {
+  opacity: 1;
+  border: solid #fb8500 10px;
+}
+
+.ff15-rating {
+  color: #023047;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.dq11 {
+  position: relative;
+  width: 60%;
+  grid-column: 3/4;
+  margin: 50px;
+}
+
+.dq11-image {
+  width: 100%;
+  height: auto;
+}
+
+.dq11-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #06d6a0;
+}
+
+.dq11:hover .dq11-overlay {
+  opacity: 1;
+  border: solid #fb8500 10px;
+}
+
+.dq11-rating {
+  color: #023047;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+#shooter {
+  color: #fb8500;
+  font-size: 3em;
+}
+.fortnite {
+  position: relative;
+  width: 60%;
+  grid-column: 1/2;
+  margin: 50px;
+}
+
+.fortnite-image {
+  width: 100%;
+  height: auto;
+}
+
+.fortnite-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #06d6a0;
+}
+
+.fortnite:hover .fortnite-overlay {
+  opacity: 1;
+  border: solid #fb8500 10px;
+}
+
+.fortnite-rating {
+  color: #023047;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.d2 {
+  position: relative;
+  width: 60%;
+  grid-column: 2/3;
+  margin: 50px;
+}
+
+.d2-image {
+  width: 100%;
+  height: auto;
+}
+
+.d2-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #06d6a0;
+}
+
+.d2:hover .d2-overlay {
+  opacity: 1;
+  border: solid #fb8500 10px;
+}
+
+.d2-rating {
+  color: #023047;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.halo-reach {
+  position: relative;
+  width: 60%;
+  grid-column: 3/4;
+  margin: 50px;
+}
+
+.halo-reach-image {
+  width: 100%;
+  height: auto;
+}
+
+.halo-reach-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #06d6a0;
+}
+
+.halo-reach:hover .halo-reach-overlay {
+  opacity: 1;
+  border: solid #fb8500 10px;
+}
+
+.halo-reach-rating {
+  color: #023047;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
