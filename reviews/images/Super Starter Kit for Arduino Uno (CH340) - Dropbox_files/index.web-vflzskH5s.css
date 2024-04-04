@@ -1,0 +1,13 @@
+@import url('./components-vfl-0j1S_.css');
+/* This loads **after** `components.css` because it contains all the legacy color tokens */
+@import url('./legacy-token-migration-vfl1sMmEL.css');
+@import url('./logos-vflS4tFqD.css');
+@import url('./icons-vfl9yBwLd.css');
+@import url('./foundations-tokens-vflOggBEL.css');
+@import url('./foundations-components-vflla-7Hl.css');
+@import url('./content-icons-vfleGw9Kf.css');
+/* For any images that are circle cropped, scale them up a bit so that they're still cropped as a squircle */
+.dig-Avatar-image--modern[src*='circle_crop=1'],
+.dig-Avatar-image--modern[srcset*='circle_crop=1'] {
+    transform: scale(1.075);
+}

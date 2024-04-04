@@ -1,0 +1,447 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu&display=swap");
+body {
+  background-color: #023047;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  font-family: Ubuntu, helvetica, sans-serif;
+}
+nav a {
+  text-align: center;
+  color: #023047;
+  text-decoration: none;
+  padding: 35px;
+  font-size: 1.5em;
+}
+#title {
+  font-size: 50px;
+  text-align: center;
+  font-family: "Playfair Display", Helvetica, sans-serif;
+  color: #fb8500;
+}
+header {
+  background-color: #06d6a0;
+  display: grid;
+  grid-template-columns: 150px auto;
+}
+nav a:hover {
+  background-color: #023047;
+  color: #8ecae6;
+}
+footer {
+  background-color: #06d6a0;
+  color: #023047;
+  padding: 25px 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.5em;
+  font-family: Ubuntu, helvetica, sans-serif;
+}
+footer a {
+  color: #023047;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+#logo_link {
+  padding-top: 5px;
+  justify-self: center;
+  align-self: center;
+}
+.logo {
+  width: 80px;
+}
+#board {
+  color: #fb8500;
+  font-size: 3em;
+}
+.boardgame-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.game-of-life {
+  position: relative;
+  width: 60%;
+  grid-column: 1/2;
+  margin: 50px;
+}
+
+.game-of-life-image {
+  width: 100%;
+  height: auto;
+}
+
+.game-of-life-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #06d6a0;
+}
+
+.game-of-life:hover .game-of-life-overlay {
+  opacity: 1;
+  border: solid #fb8500 10px;
+}
+
+.game-of-life-rating {
+  color: #023047;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.stardew {
+  position: relative;
+  width: 60%;
+  grid-column: 2/3;
+  margin: 50px;
+}
+
+.stardew-image {
+  width: 100%;
+  height: auto;
+}
+
+.stardew-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #06d6a0;
+}
+
+.stardew:hover .stardew-overlay {
+  opacity: 1;
+  border: solid #fb8500 10px;
+}
+
+.stardew-rating {
+  color: #023047;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.clue {
+  position: relative;
+  width: 60%;
+  grid-column: 3/4;
+  margin: 50px;
+}
+
+.clue-image {
+  width: 100%;
+  height: auto;
+}
+
+.clue-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #06d6a0;
+}
+
+.clue:hover .clue-overlay {
+  opacity: 1;
+  border: solid #fb8500 10px;
+}
+
+.clue-rating {
+  color: #023047;
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+#card {
+  color: #fb8500;
+  font-size: 3em;
+}
+.kittens {
+  position: relative;
+  width: 60%;
+  grid-column: 1/2;
+  margin: 50px;
+}
+
+.kittens-image {
+  width: 100%;
+  height: auto;
+}
+
+.kittens-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #06d6a0;
+}
+
+.kittens:hover .kittens-overlay {
+  opacity: 1;
+  border: solid #fb8500 10px;
+}
+
+.kittens-rating {
+  color: #023047;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.uno {
+  position: relative;
+  width: 60%;
+  grid-column: 2/3;
+  margin: 50px;
+}
+
+.uno-image {
+  width: 100%;
+  height: auto;
+}
+
+.uno-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #06d6a0;
+}
+
+.uno:hover .uno-overlay {
+  opacity: 1;
+  border: solid #fb8500 10px;
+}
+
+.uno-rating {
+  color: #023047;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.skip {
+  position: relative;
+  width: 60%;
+  grid-column: 3/4;
+  margin: 50px;
+}
+
+.skip-image {
+  width: 100%;
+  height: auto;
+}
+
+.skip-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #06d6a0;
+}
+
+.skip:hover .skip-overlay {
+  opacity: 1;
+  border: solid #fb8500 10px;
+}
+
+.skip-rating {
+  color: #023047;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+#puzzle {
+  color: #fb8500;
+  font-size: 3em;
+}
+.rubiks {
+  position: relative;
+  width: 60%;
+  grid-column: 1/2;
+  margin: 50px;
+}
+
+.rubiks-image {
+  width: 100%;
+  height: auto;
+}
+
+.rubiks-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #06d6a0;
+}
+
+.rubiks:hover .rubiks-overlay {
+  opacity: 1;
+  border: solid #fb8500 10px;
+}
+
+.rubiks-rating {
+  color: #023047;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.perplexus {
+  position: relative;
+  width: 60%;
+  grid-column: 2/3;
+  margin: 50px;
+}
+
+.perplexus-image {
+  width: 100%;
+  height: auto;
+}
+
+.perplexus-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #06d6a0;
+}
+
+.perplexus:hover .perplexus-overlay {
+  opacity: 1;
+  border: solid #fb8500 10px;
+}
+
+.perplexus-rating {
+  color: #023047;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.jenga {
+  position: relative;
+  width: 60%;
+  grid-column: 3/4;
+  margin: 50px;
+}
+
+.jenga-image {
+  width: 100%;
+  height: auto;
+}
+
+.jenga-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #06d6a0;
+}
+
+.jenga:hover .jenga-overlay {
+  opacity: 1;
+  border: solid #fb8500 10px;
+}
+
+.jenga-rating {
+  color: #023047;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
