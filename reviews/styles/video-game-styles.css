@@ -32,7 +32,7 @@ nav a:hover {
 footer {
   background-color: #06d6a0;
   color: #023047;
-  padding: 25px 50px;
+  padding: 15px 50px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -94,7 +94,7 @@ footer a:hover {
 
 .celeste-rating {
   color: #023047;
-  font-size: 30px;
+  font-size: 15px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -136,7 +136,7 @@ footer a:hover {
 
 .shovel-knight-rating {
   color: #023047;
-  font-size: 30px;
+  font-size: 15px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -178,7 +178,7 @@ footer a:hover {
 
 .a-hat-in-time-rating {
   color: #023047;
-  font-size: 25px;
+  font-size: 15px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -223,7 +223,7 @@ footer a:hover {
 
 .p5r-rating {
   color: #023047;
-  font-size: 20px;
+  font-size: 15px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -265,7 +265,7 @@ footer a:hover {
 
 .ff15-rating {
   color: #023047;
-  font-size: 20px;
+  font-size: 15px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -307,7 +307,7 @@ footer a:hover {
 
 .dq11-rating {
   color: #023047;
-  font-size: 20px;
+  font-size: 15px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -352,7 +352,7 @@ footer a:hover {
 
 .fortnite-rating {
   color: #023047;
-  font-size: 20px;
+  font-size: 15px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -394,7 +394,7 @@ footer a:hover {
 
 .d2-rating {
   color: #023047;
-  font-size: 20px;
+  font-size: 15px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -436,7 +436,7 @@ footer a:hover {
 
 .halo-reach-rating {
   color: #023047;
-  font-size: 20px;
+  font-size: 15px;
   position: absolute;
   top: 50%;
   left: 50%;
